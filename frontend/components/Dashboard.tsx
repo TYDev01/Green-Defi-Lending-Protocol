@@ -28,7 +28,7 @@ export default function Dashboard() {
 
   // Mock chart data, 
   const chartData = [
-    { name: 'Jan', carbon: 400 }
+    { name: 'Jan', carbon: 400 },
     { name: 'Feb', carbon: 600 },
     { name: 'Mar', carbon: 800 },
     { name: 'Apr', carbon: 1200 },
