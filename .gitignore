@@ -1,0 +1,68 @@
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# Testing
+/coverage
+
+# Production
+/build
+/dist
+.next/
+out/
+
+# Misc
+.DS_Store
+*.pem
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local env files
+.env
+.env*.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Vercel
+.vercel
+
+# Hardhat
+cache/
+artifacts/
+typechain-types/
+
+# Contract addresses
+deployed-addresses.json
+
+# Firebase
+firebase-debug.log
+.firebase/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+Thumbs.db
+
+ADD_NETWORK.md
+DEPLOYMEMT.md
+HASHPACK_IMPLEMENTATION.md
+HASHPACK_INTEGRATION.md
+HASHPACK_INTEGRATION_SUMMARY.md
+HASHPACK_WALLETCONNECT.md
+HASHPACK_WALLETCONNECT_GUIDE.md
+PROJECT_SUMMARY.md
+QUICK_START_HASHPACK.md
+SETUP_GUIDE.md
+lee.md
+DEPLOYMEMT.md
+start.sh

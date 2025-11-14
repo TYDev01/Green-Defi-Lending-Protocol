@@ -1,4 +1,4 @@
-# GreenDeFi Protocol 🌍
+# GreenDeFi Protocol
 
 A revolutionary DeFi lending protocol on Hedera Hashgraph that rewards borrowers for contributing to verified sustainability projects. Built on Hedera's carbon-negative network.
 
@@ -64,7 +64,7 @@ greendefi/
 
 1. **Clone the repository**
    ```bash
-   git clone <repo-url>
+   git clone https://github.com/TYDev01/Green-Defi-Lending-Protocol.git
    cd greendefi
    ```
 
@@ -215,11 +215,11 @@ npm test
 
 ## Security Considerations
 
-- ✅ ReentrancyGuard on all state-changing functions
-- ✅ Access control with Ownable
-- ✅ Input validation and bounds checking
-- ✅ Safe math operations with Solidity 0.8+
-- ⚠️ Audit recommended before mainnet deployment
+- ReentrancyGuard on all state-changing functions
+- Access control with Ownable
+- Input validation and bounds checking
+- Safe math operations with Solidity 0.8+
+- WARNING: Audit recommended before mainnet deployment
 
 ## Roadmap
 
@@ -230,9 +230,9 @@ npm test
 - [x] Telegram notifications
 - [x] Gamified leaderboard
 - [ ] Multi-token support (USDC, USDT)
+- [ ] Farcaster miniapp integration.
 - [ ] Governance token (GREEN)
 - [ ] DAO governance
-- [ ] Mobile app
 - [ ] Mainnet deployment
 
 ## Contributing
@@ -251,10 +251,6 @@ MIT License
 
 ## Contact
 
-- Website: [greendefi.io]()
-- Twitter: [@GreenDeFi]()
-- Discord: [Join our server]()
-- Email: contact@greendefi.io
 
 ## Acknowledgments
 
@@ -265,5 +261,4 @@ MIT License
 
 ---
 
-Built with 💚 on Hedera's carbon-negative network
 # Green-Defi-Lending-Protocol
