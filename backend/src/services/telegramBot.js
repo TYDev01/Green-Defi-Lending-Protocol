@@ -52,7 +52,7 @@ class TelegramNotificationBot {
         this.subscriptions.set(chatId, walletAddress);
         this.bot.sendMessage(
           chatId,
-          `Subscribed! You'll receive notifications for wallet:\n\`${walletAddress}\`",
+          `Subscribed! You'll receive notifications for wallet:\n\`${walletAddress}\``,
           { parse_mode: 'Markdown' }
         );
       } else {
@@ -80,7 +80,7 @@ class TelegramNotificationBot {
         const wallet = this.subscriptions.get(chatId);
         this.bot.sendMessage(
           chatId,
-          `*Subscription Active*\n\nWallet: \`${wallet}\`",
+          `*Subscription Active*\n\nWallet: \`${wallet}\``,
           { parse_mode: 'Markdown' }
         );
       } else {
